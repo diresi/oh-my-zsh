@@ -22,5 +22,5 @@ alias ll='ls -l'
 alias la='ls -lA'
 alias sl=ls # often screw this up
 
-alias afind='ack-grep -il'
+alias afind='ack -il'
 
