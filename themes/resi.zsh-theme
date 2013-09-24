@@ -10,7 +10,7 @@ ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[cyan]%}git:("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%}"
 
 # stolen from sunrise.zsh-theme
-local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+local return_code="%(?..%{$fg[red]%}%? :(%{$reset_color%})"
 RPS1="${return_code}"
 
 # stolen from grml-zsh-config
